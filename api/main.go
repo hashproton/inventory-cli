@@ -22,7 +22,6 @@ func chooseOption() {
 	var option int
 
 	fmt.Print("Choose an option: ")
-
 	if _, err := fmt.Scanf("%d", &option); err != nil {
 		println("Invalid option")
 		return
